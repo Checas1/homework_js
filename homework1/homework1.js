@@ -1,4 +1,7 @@
-var i = 5
-for ( ; i > 2; i -= 2 ) {
-       console.log (  ++i )
+var years = prompt('Введите число ', 0);
+if (years>=0){
+alert('Число положительное')
+}
+else {
+alert('Число отрицательное') 
 }
