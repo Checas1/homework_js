@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [{
+        "name": "Launch Program",
+        "program": "${workspaceFolder}/homework3.js",
+        "request": "erert",
+        "skipFiles": [
+            "<node_internals>/**"
+        ],
+        "type": "pwa-node"
+    }
+    
+    ]
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        #menu{
+            width: 200px;
+            background-color: red;
+            height: 300px;
+            position: absolute;
+            top:30px;
+            left: -200px;
+            transition: all 0.3s;
+
+        }
+        #menu.active{
+            left:0;
+        }
+
+        #open {
+            font-size: 40px;
+        }
+    </style>
+
+</head>
+<body>
+    <button id="open">Menu</button>
+<div id="menu">
+    <ul>
+        <li> 
+            <a href="https://wikipedia.org" target="blank">SubMenu1</a>
+        </li>
+        <li>SubMenu 2</li>
+        <li>SubMenu 3</li>
+        <li>SubMenu 4</li>
+        <li>SubMenu 5</li>
+    </ul>
+</div>
+    <script src="main.js"></script>
+</body>
+</html>
